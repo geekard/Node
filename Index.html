@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Node</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Style.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <div class="header">
+      <nav class="navbar">
+        <div class="brand-title">
+          <a href="./Index.html"><strong class="text-3xl">N</strong>ode</a>
+        </div>
+        <a href="#" class="toggle-btn" id="toggle-btn">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="navbar-links" id="navbar-links">
+          <ul>
+            <li><a href="./Index.html" id="links">Home</a></li>
+            <li><a href="./Profile.html" id="links">Profile</a></li>
+            <li><a href="./Images.html" id="links">Gallery</a></li>
+            <li>
+              <a
+                href="https://mail.google.com/mail/u/1/?fs=1&to=ayushdubey.ard@gmail.com&tf=cm"
+                id="links"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <!-- search box -->
+
+    <div class="search-box">
+      <a class="search-btn"
+        ><ion-icon class="search-icon" name="search-circle-sharp"></ion-icon
+      ></a>
+      <input
+        class="search-text"
+        type="text"
+        id="myInput"
+        onkeyup="mySearchFunction()"
+        placeholder="  Type to search"
+      />
+    </div>
+
+    <!-- //main -->
+
+    <ul id="cardlist">
+      <div class="main grid grid-cols-1 lg:grid-cols-2 justify-items-center">
+        <!-- //card 1 -->
+
+        <li>
+          <div
+            class="card shadow-xl w-[26rem] rounded-xl hover:scale-[1.05] ease-in-out duration-300"
+          >
+            <a href="https://dt-transporters.vercel.app/index.html">
+              <div class="image h-[16rem] mb-8 overflow-hidden">
+                <img
+                  src="./images/dt.png"
+                  alt=""
+                  class="h-[100%] w-[100%] rounded-t-xl"
+                />
+              </div>
+              <div class="mx-6">
+                <div class="Title font-bold text-2xl">DT Transporters</div>
+                <div class="Descrpition mb-4">
+                  A simple frontend design for a transporters website with HTML
+                  & CSS... <br />
+                  The design includes a payment form to avail services & contact
+                  methods to connect with the service provider . <br />
+                  It also contains pages describing the said compnay.
+                </div>
+                <a
+                  href="https://github.com/geekard/DT-Transporters"
+                  class="Source underline underline-off set-8 text-red-400 mb-4 inline-block hover:text-sky-600"
+                  ><ion-icon name="git-branch-outline"></ion-icon> View
+                  Source</a
+                >
+              </div>
+            </a>
+          </div>
+        </li>
+
+        <!-- //card 2 -->
+
+        <li>
+          <div
+            class="card shadow-xl w-[26rem] rounded-xl hover:scale-[1.05] ease-in-out duration-300"
+          >
+            <a href="https://order-summary-card-css.vercel.app/">
+              <div class="image h-[16rem] mb-8 overflow-hidden">
+                <img
+                  src="./images/card.png"
+                  alt=""
+                  class="h-[100%] w-[100%] rounded-t-xl"
+                />
+              </div>
+              <div class="mx-6">
+                <div class="Title font-bold text-2xl">Order Summary Card</div>
+                <div class="Descrpition mb-4">
+                  Order Summary Card is a CSS only challenge by Frontend Mentor.
+                  <br />
+                  The card is made of simple html and focuses more on the aspect
+                  of the designing through CSS. For Beginners it is a good
+                  project to flex their skills on <br />
+                </div>
+                <a
+                  href="https://github.com/geekard/Order-Summary---Card-Css-"
+                  class="Source underline underline-off set-8 text-red-400 mb-4 inline-block hover:text-sky-600"
+                  ><ion-icon name="git-branch-outline"></ion-icon> View
+                  Source</a
+                >
+              </div>
+            </a>
+          </div>
+        </li>
+
+        <!-- //card 3 -->
+
+        <li>
+          <div
+            class="card shadow-xl w-[26rem] rounded-xl hover:scale-[1.05] ease-in-out duration-300"
+          >
+            <a href="https://iims-university.vercel.app/index.html">
+              <div class="image h-[16rem] mb-8 overflow-hidden">
+                <img
+                  src="./images/iims.png"
+                  alt=""
+                  class="h-[100%] w-[100%] rounded-t-xl"
+                />
+              </div>
+              <div class="mx-6">
+                <div class="Title font-bold text-2xl">University Webpage</div>
+                <div class="Descrpition mb-4">
+                  A frontend design for a university webpage. <br />
+                  This one here is a complete portfolio for a university to
+                  represent itself online to its viewers. <br />
+                  The portfolio shows information about the said university in
+                  different categories that may interest it' viewers.
+                </div>
+                <a
+                  href="https://github.com/geekard/IIMS_University"
+                  class="Source underline underline-off set-8 text-red-400 mb-4 inline-block hover:text-sky-600"
+                  ><ion-icon name="git-branch-outline"></ion-icon> View
+                  Source</a
+                >
+              </div>
+            </a>
+          </div>
+        </li>
+
+        <!-- //card 4 -->
+
+        <li>
+          <div
+            class="card shadow-xl w-[26rem] rounded-xl hover:scale-[1.05] ease-in-out duration-300"
+          >
+            <a href="https://single-page-simple-webpage.vercel.app/">
+              <div class="image h-[16rem] mb-8 overflow-hidden">
+                <img
+                  src="./images/fm.png"
+                  alt=""
+                  class="h-[100%] w-[100%] rounded-t-xl"
+                />
+              </div>
+              <div class="mx-6">
+                <div class="Title font-bold text-2xl">Food Blog</div>
+                <div class="Descrpition mb-4 hover-black">
+                  A simple single page webpage on food using all html basic
+                  codes with internal hyperlinks. <br />
+                  The food blog is named Foodmeraki and acts as a sort of diary
+                  for a food blogger to store recipies in audio, video & textual
+                  format with personal tips on the topic.
+                </div>
+                <a
+                  href="https://github.com/geekard/Single_page_simple_webpage"
+                  class="Source underline underline-off set-8 text-red-400 mb-4 inline-block hover:text-sky-600"
+                  ><ion-icon name="git-branch-outline"></ion-icon> View
+                  Source</a
+                >
+              </div>
+            </a>
+          </div>
+        </li>
+      </div>
+    </ul>
+
+    <!-- footer -->
+
+    <footer id="footer">
+      <div class="footer-header">
+        <div class="footer-header-side">
+          <p class="footer-header-side-title">NEED HELP?</p>
+          <p class="footer-header-side-tel">7037 123 747</p>
+        </div>
+      </div>
+
+      <div class="footer-content">
+        <div class="container">
+          <div class="footer-content-block">
+            <h4>Projects</h4>
+            <ul class="links">
+              <li>
+                <a href="https://dt-transporters.vercel.app/index.html"
+                  >DT Transporters</a
+                >
+              </li>
+              <li>
+                <a href="https://order-summary-card-css.vercel.app/"
+                  >Css Order Summary Card</a
+                >
+              </li>
+              <li>
+                <a href="https://iims-university.vercel.app/index.html"
+                  >University Page</a
+                >
+              </li>
+              <li>
+                <a href="https://single-page-simple-webpage.vercel.app/"
+                  >Foodmeraki</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="footer-content-block">
+            <h4>More</h4>
+            <ul class="links">
+              <li><a href="./Index.html">Home</a></li>
+              <li><a href="./Profile.html">Profile</a></li>
+              <li>
+                <a
+                  href="https://mail.google.com/mail/u/1/?fs=1&to=ayushdubey.ard@gmail.com&tf=cm"
+                  >Contact</a
+                >
+              </li>
+              <li><a href="./Images.html">Photos</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-content-block">
+            <h4>Follow Us</h4>
+            <ul class="social">
+              <li class="telegram">
+                <a
+                  href="https://msng.link/o/?Ambiguous_Ayush=tg"
+                  target="_blank"
+                >
+                  <ion-icon name="paper-plane"></ion-icon>
+                </a>
+              </li>
+              <li class="facebook">
+                <a
+                  href="https://www.facebook.com/profile.php?id=100006873795860&__tn__=%2Cd"
+                  target="_blank"
+                >
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+              <li class="instagram">
+                <a
+                  href="https://www.instagram.com/ambiguous__ayush/"
+                  target="_blank"
+                >
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-content-block">
+            <p class="address">
+              Ajanta Colony Garh Road Meerut<br />
+              <a href="Profile.html">more information</a>
+            </p>
+            <p class="coords">
+              <b>Phone:</b> 7037 123 747<br />
+              <b>Email:</b>
+              <a href="gmail.com">ayushdubey.ard@gmail.com</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-footer">
+        <div class="container">
+          <p class="copyright">&copy; 2022 ARD</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Javascript -->
+
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

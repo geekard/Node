@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Ayush Ranjan Dubey Profile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Profile1-2.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="main-nav">
+      <ul class="nav">
+        <li class="name">Ayush Ranjan Dubey</li>
+      </ul>
+    </div>
+    <header>
+      <img
+        src="./images/logo01.jpeg"
+        alt="Ayush Ranjan Dubey"
+        class="profile-image"
+      />
+      <h1 class="tag name">Hello, I’m Ayush.</h1>
+      <p class="tag location">My home's in Meerut, Uttar Pradesh.</p>
+    </header>
+
+    <main class="flex">
+      <div class="card">
+        <h2>About</h2>
+        <p>
+          I'm a leaner and a creator with a mind filled with an unceasing amount
+          of creative ideas. I like exploring new heights and ways to do things
+          but at the same time also to discover old paths treaded upon by
+          others.
+        </p>
+        <p>
+          I'm a life-long learner who's always interested in expanding my skills
+          and views.
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>Goals & Interests</h2>
+        <p>
+          I want to live my life full of colours and satisfaction and in the
+          process increase my knowledge, skills and abilities. Some of the
+          things I like to do are:
+        </p>
+        <ul class="skills">
+          <li>Coding</li>
+          <li>Traveling</li>
+          <li>Skating</li>
+          <li>Drawing</li>
+          <li>Gaming</li>
+        </ul>
+        <p>
+          I’d like to work in an open envirnoment where i can get guidance to
+          improve my abilities but at the same time bring my own ideas to
+          fruition.
+        </p>
+      </div>
+    </main>
+    <footer>
+      <p class="copyright"></p>
+    </footer>
+    <script>
+      const copyright = document.querySelector(".copyright");
+
+      const date = new Date();
+      const year = date.getFullYear();
+
+      copyright.textContent = `Copyright ${year}, Ayush`;
+    </script>
+  </body>
+</html>
